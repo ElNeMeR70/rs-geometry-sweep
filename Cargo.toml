@@ -1,0 +1,13 @@
+[package]
+name = "rs-geometry-sweep"
+version = "1.0.0"
+edition = "2021"
+description = "Sweep line for polygon union area computation"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-geometry-sweep"
+keywords = ["rust", "sweep-line", "geometry", "area", "algorithms"]
+
+[[bin]]
+name = "rs_geometry_sweep"
+path = "main.rs"
